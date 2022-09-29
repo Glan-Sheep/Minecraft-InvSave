@@ -1,0 +1,13 @@
+name: test
+version: '${project.version}'
+main: glanz.me.glansheep.invsave
+api-version: 1.19
+commands:
+  saveinv:
+    description: インベントリを保存する
+    usage: /<command> name
+  selectinv:
+    description: インベントリを選択する
+  removeinv:
+    description: インベントリを削除する
+    usage: /<command> name
